@@ -1,9 +1,6 @@
 <template>
     <div id="main">
-        <div id="chart">
-            <axiosExample></axiosExample>
-        
-        </div>
+
          <div id="chart">
             <PSIIndex></PSIIndex>
         
@@ -13,12 +10,11 @@
 </template>
 
 <script>
-import axiosExample from '../axiosExample.js'
 import PSIIndex from '../PSIIndex.js'
 
 export default {
     components:{
-        axiosExample,PSIIndex
+        PSIIndex
     }
     
 }
