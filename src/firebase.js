@@ -1,16 +1,15 @@
 import firebase from 'firebase';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA40hoF7HM4Z4c3dBLpIb8A4PkWW-iHJnI",
-  authDomain: "week8-30d81.firebaseapp.com",
-  databaseURL: "https://week8-30d81.firebaseio.com",
-  projectId: "week8-30d81",
-  storageBucket: "week8-30d81.appspot.com",
-  messagingSenderId: "1010742547413",
-  appId: "1:1010742547413:web:e79225fc02faf00d09235c",
-  measurementId: "G-6K182240E0"
-
-  };
+  apiKey: "AIzaSyCVmK43h9xIcluWgHsTbnIHN620ZR7y3nU",
+  authDomain: "week10-f6b51.firebaseapp.com",
+  databaseURL: "https://week10-f6b51.firebaseio.com",
+  projectId: "week10-f6b51",
+  storageBucket: "week10-f6b51.appspot.com",
+  messagingSenderId: "843311365924",
+  appId: "1:843311365924:web:060eb88a9ea75fe82c7db1",
+  measurementId: "G-PRS8LEN00B"
+};
   
   firebase.initializeApp(firebaseConfig);
   var database = firebase.firestore();
